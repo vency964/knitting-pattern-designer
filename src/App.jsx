@@ -459,7 +459,7 @@ export default function KnittingDesigner() {
 
   // ─── Styles ───
   const s = {
-    app: { fontFamily: "'Segoe UI', system-ui, sans-serif", display: "flex", flexDirection: "column", minHeight: "100vh", background: "var(--color-background-tertiary)", color: "var(--color-text-primary)" },
+    app: { fontFamily: "'Segoe UI', system-ui, sans-serif", display: "flex", flexDirection: "column", height: "100vh", background: "var(--color-background-tertiary)", color: "var(--color-text-primary)", overflow: "hidden" },
     header: { display: "flex", alignItems: "center", justifyContent: "space-between", padding: "8px 12px", background: "var(--color-background-primary)", borderBottom: "1px solid var(--color-border-tertiary)", flexWrap: "wrap", gap: "6px" },
     logo: { display: "flex", alignItems: "center", gap: "8px" },
     logoIcon: { width: 28, height: 28, borderRadius: 6, background: "linear-gradient(135deg, #7F77DD, #D4537E)", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontWeight: 700, fontSize: 14 },
